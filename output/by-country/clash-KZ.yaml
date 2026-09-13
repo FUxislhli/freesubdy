@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe
-  server: 104.18.47.113
+  server: 104.21.70.21
   port: 8080
   udp: true
   type: vless
@@ -16,20 +16,20 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - xiaohe
-  server: 166.62.113.123
+  server: 104.21.78.225
   port: 443
   udp: true
   type: vless
-  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  uuid: 4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633
   tls: true
-  servername: notls.lukongtou.eu.org
+  servername: curly-night-6928.ggdhchjk.workers.dev
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /Telegram-WangCai2🇨🇳
+    path: /sync
     headers:
-      Host: notls.lukongtou.eu.org
+      Host: curly-night-6928.ggdhchjk.workers.dev
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - xiaohe
   server: 62.233.39.9
   port: 8443
@@ -40,7 +40,7 @@ proxies:
   reality-opts:
     public-key: oHaUPZiESTQQ89DMd4uIcPWgsyeFFy58iZYX_8mbvWk
   servername: dl.dell.com
-  client-fingerprint: chrome
+  client-fingerprint: safari
   network: grpc
   grpc-opts:
     grpc-service-name: TunService
