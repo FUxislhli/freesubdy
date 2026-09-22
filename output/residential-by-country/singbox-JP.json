@@ -4,18 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "104.21.76.194",
-      "server_port": 443,
-      "password": "Telegram_healer_config",
+      "type": "vless",
+      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
+      "server": "116.204.164.60",
+      "server_port": 7443,
+      "uuid": "fc85cf23-75e6-4b91-b468-8adc9407047b",
       "tls": {
         "enabled": true,
-        "server_name": "X8xus4X7UTZMDozv2.bZuH25LZINNeTwTOcXYIcx.WORkERs.deV",
+        "server_name": "o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -23,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/tr/nDuppKYyUqsEcG0rcQEg5sghG0?ed",
+        "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "x8xus4x7utzmdozv2.bzuh25lzinnetwtocxyicx.workers.dev"
+          "Host": "o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev"
         }
       }
     },
@@ -34,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
