@@ -5,16 +5,11 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇹 奥地利 (Austria) 01 - xiaohe
-  server: 212.183.88.136
-  port: 443
+  server: 31.56.222.61
+  port: 17852
   udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
+  type: vless
+  uuid: 79251d3c-aabc-475c-b598-67263479b382
 proxy-groups:
 - name: PROXIES
   type: select

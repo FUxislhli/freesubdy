@@ -4,23 +4,11 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇦🇹 奥地利 (Austria) 01 - xiaohe",
-      "server": "212.183.88.136",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.calmlunch.com",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.calmlunch.com"
-        }
-      }
+      "server": "31.56.222.61",
+      "server_port": 17852,
+      "uuid": "79251d3c-aabc-475c-b598-67263479b382"
     },
     {
       "type": "selector",
