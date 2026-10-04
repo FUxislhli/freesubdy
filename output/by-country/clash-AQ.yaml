@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe
-  server: 185.166.154.111
+- name: 🇦🇶 AQ 01 - xiaohe
+  server: 2.27.26.128
   port: 443
   udp: true
   type: vless
-  uuid: 91d734be-a3d0-4d50-83ab-74cf7b6966fa
+  uuid: 8710a337-f504-4b75-8989-224cfd803b2d
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: bQZcMViJWXus9rMSTOa-ZAaUJC0mIlPx7XmzrLp8GQU
-    short-id: 94f32cfc
-  servername: cdn.bulkavpn.top
-  client-fingerprint: firefox
+    public-key: HKkU-5UanGjWdmX8E-EGulXMk1BnidkFsVveyyOlTg8
+    short-id: 90f9d05bf95cb335
+  servername: aq-1.global-cdn.org
+  client-fingerprint: safari
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe
+  - 🇦🇶 AQ 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe
+  - 🇦🇶 AQ 01 - xiaohe
 rules:
 - MATCH,PROXIES
