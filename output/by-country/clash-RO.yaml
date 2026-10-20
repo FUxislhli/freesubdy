@@ -31,7 +31,7 @@ proxies:
   udp: true
   type: hysteria2
   password: gf1:gfhysteria2024
-  sni: google.com
+  sni: speedtest.tinkoff.ru
   skip-cert-verify: true
 - name: 🇷🇴 罗马尼亚 (Romania) 04 - xiaohe
   server: 154.46.31.106

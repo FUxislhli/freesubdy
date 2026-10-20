@@ -44,7 +44,7 @@
       "password": "gf1:gfhysteria2024",
       "tls": {
         "enabled": true,
-        "server_name": "google.com",
+        "server_name": "speedtest.tinkoff.ru",
         "insecure": true
       }
     },
