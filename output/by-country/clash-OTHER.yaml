@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.21.0.1
+  server: 172.67.164.184
   port: 2083
   udp: true
   type: vmess
