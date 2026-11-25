@@ -5,22 +5,27 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇬🇷 希腊 (Greece) 01 - xiaohe",
-      "server": "85.90.197.220",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
+      "server": "188.214.37.231",
       "server_port": 443,
-      "uuid": "8f704ed6-9a1a-4d04-94dd-1bff501716de",
-      "flow": "xtls-rprx-vision",
+      "uuid": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "lagoon.gerqix.online",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4",
-          "short_id": "94acb54627612d43"
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/de5/stream",
+        "headers": {
+          "Host": "lagoon.gerqix.online"
         }
       }
     },
@@ -29,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇬🇷 希腊 (Greece) 01 - xiaohe"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇬🇷 希腊 (Greece) 01 - xiaohe"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
